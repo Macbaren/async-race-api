@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: #394d5c;
+}
+
+#car-image,
+#flag-image {
+  width: 100px;
+}
+
+hr {
+  border: none;
+  border-top: 5px dashed rgb(132, 142, 207);
+  color: #fff;
+  background-color: #fff;
+  height: 1px;
+  width: 100%;
+}

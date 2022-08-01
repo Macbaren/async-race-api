@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Async-race-app</title>
+  </head>
+  <body>
+    <header>
+      <div class="pages">
+        <button>To garage</button>
+        <button>To winners</button>
+      </div>
+      <div class="management">
+        <div class="create">
+          <input type="text" />
+          <input type="color" />
+          <button class="create-button">CREATE</button>
+        </div>
+        <div class="update">
+          <input type="text" />
+          <input type="color" />
+          <button class="update-button">UPDATE</button>
+        </div>
+        <div class="race">
+          <button class="button-race">RACE</button>
+          <button class="button-reset">RESET</button>
+          <button class="button-generate">GENERATE</button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="garage">Garage()</div>
+      <div class="page-number">Page#</div>
+      <div class="car">
+        <div class="car-buttons">
+          <button class="select-button">SELECT</button>
+          <button class="remove-button">REMOVE</button>
+          <span class="car-title">Tesla</span>
+        </div>
+        <div class="start-stop">
+          <button class="start-button">Start</button>
+          <button class="stop-button">Stop</button>
+        </div>
+        <div class="car-n-flag-image">
+          <img id="car-image" src="./src/pics/car.svg" alt="car-img" />
+          <img id="flag-image" src="./src/pics/flag.svg" alt="flag-img" />
+        </div>
+        <hr />
+      </div>
+    </main>
+  </body>
+</html>
